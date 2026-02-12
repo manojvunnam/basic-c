@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+    int attempt,marks;
+    scanf("%d %d",&attempt,&marks);
+    switch(attempt){
+        case 1:
+        if(marks>=80){
+        printf("excellent");
+        }else{
+            printf("fail");
+        }
+    break;
+    case 2:
+if(marks>=60){
+    printf("good");
+}else{
+    printf("fail");
+}
+break;
+    case 3:
+    printf("need improvement");
+    return 0;
+}
+}
