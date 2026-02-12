@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int type,billamount;
+    scanf("%d %d",&type,&billamount);
+    switch(type){
+        case 1:
+        printf("%d",(billamount-(billamount/100)*5));
+        break;
+        case 2:
+        printf("%d",(billamount-(billamount/100)*15));
+        break;
+    }
+    
+    return 0;
+}
