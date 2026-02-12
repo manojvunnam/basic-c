@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int calltype,minuets;
+    scanf("%d %d",&calltype,&minuets);
+    switch(calltype){ 
+        case 1:
+        printf("%d",minuets*1);
+        break;
+        case 2:
+printf("%d",minuets*3);
+break;
+case 3:
+printf("%d",minuets*10);
+break;
+    }
+    return 0;
+}
