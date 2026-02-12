@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int delivery_mode;
+    scanf("%d",&delivery_mode);
+    switch(delivery_mode){
+        case 1:
+        printf("%d",40);
+        break;
+        case 2:
+        printf("%d",120);
+        break;
+        case 3:
+        printf("%d",0);
+        break;
+    }
+    return 0;
+}
