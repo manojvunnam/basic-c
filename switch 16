@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+    int seat,time;
+    int a=150;
+    int b=250;
+    scanf("%d %d",&seat,&time);
+    switch(seat){
+        case 1:
+        if(time>18){
+            printf("%d",a+50);
+        }else{
+            printf("%d",a);
+        }
+        break;
+        case 2:
+        if(time>18){
+            printf("%d",b+50);
+        }else{
+            printf("%d",b);
+        }
+        break;
+    }
+    
+    return 0;
+}
