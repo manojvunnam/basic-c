@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char ch[20]="age";
+    printf("%s\n",ch);
+    int age=20;
+    printf("age:%d",age);
+    return 0;
+}
